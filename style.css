@@ -76,12 +76,15 @@ h1,h2,h3,h4,h5,h6{
 #main{
     background-color: #dddddd;
 }
+article.post{
+    background-color: #ffffff;
+}
 
 #secondary aside ul{
     padding: 0 5px;
 }
 #secondary aside form{
-    padding: 0 5px;
+    padding: 5px;
 }
 
 .footer-widgets-wrapper{
@@ -96,16 +99,77 @@ h1,h2,h3,h4,h5,h6{
     display: none;
 }
 
-.main-content-section .colormag-button,
-.main-content-section input[type="reset"],
-main-content-section  input[type="button"],
-main-content-section input[type="submit"],
-button {
-    padding: 3px 15px;
-    border: 2px solid  #169361;
-    background-color: #ffffff !important;
-    color: #169361;
-}
 .widget_wysija_cont .wysija-submit {
-    margin-top: 0px!important;
+    margin-top: -38px!important;
+    margin-bottom: 10px;
+}
+
+h3.widget-title {
+    background-color:#ddd!important;
+}
+
+h3.widget-title a{
+    color:#fff;
+}
+#rssimport-2 .widget-title span, #rss-2 .widget-title span{
+    background-color: #D95821!important;
+}
+#rssimport-2 .widget-title , #rss-2 .widget-title{
+    border-bottom: 2px solid #D95821!important;
+}
+
+
+.cat-post-widget li{
+    background-color: white;
+    padding: 0;
+}
+.cat-post-widget ul{
+     margin: -5px 0 30px 0;
+}
+.cat-post-widget .widget-title{
+    margin-bottom: 15px;
+    padding-bottom: 0;
+    line-height: 1.2;
+    font-weight: normal;
+    background-color: #ddd;
+    border-bottom: 2px solid #169361;
+}
+.cat-post-widget .widget-title span{
+    padding: 6px 12px;
+    display: inline-block;
+    background-color: #169361;
+    font-size: 18px;
+}
+.cat-post-widget .widget-title span a{
+    color: #fff;
+}
+.cat-post-widget .widget-title span a:hover{
+    color: #fff;
+}
+.cat-post-widget .cat-post-thumbnail{
+    margin: 0 10px 0 0!important;
+}
+.cat-post-widget .cat-post-item{
+    padding: 0px!important;
+    margin: 14px 0!important;
+}
+.top-authors-widget li{
+    padding:0!important;
+    margin:0!important;
+}
+.ta-preset.ta-gravatars li {
+    width: 60px!important;
+    height: 63px;
+}
+.page-header span{
+    font-size: inherit;
+    background-color: transparent!important;
+    color: black!important;
+    font-size: 30px;
+}
+.page-header h1{
+    border-bottom: none!important;
+}
+.rsspaging .rsspaging_next{
+    float: right;
 }
