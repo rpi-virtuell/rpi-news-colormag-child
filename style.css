@@ -139,6 +139,7 @@ h3.widget-title a{
     display: inline-block;
     background-color: #169361;
     font-size: 18px;
+    color: white;
 }
 .cat-post-widget .widget-title span a{
     color: #fff;
