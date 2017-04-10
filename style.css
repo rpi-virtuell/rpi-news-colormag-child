@@ -175,7 +175,9 @@ h3.widget-title a{
     float: right;
 }
 
-
+.page-template-page-allposts .post.cat-post-widget li{
+    padding: 5px 15px;
+}
 
 /**slider**/
 #focuswp_widget-2 {
