@@ -174,3 +174,28 @@ h3.widget-title a{
 .rsspaging .rsspaging_next{
     float: right;
 }
+
+
+
+/**slider**/
+#focuswp_widget-2 {
+    margin-top: -5px;
+}
+
+div.focuswp-headleft {
+    display: none!important;
+}
+div.focuswp-slider .focuswp-slides .focuswp-head {
+    background-color: #ddd;
+}
+div.focuswp-headright{
+    position: absolute!important;
+    height: 40px!important;
+    top:2px;
+    left:-20px;
+}
+.focuswp-head button {
+    border:0!important;
+    background-color: #169361 !important;
+    color:white!important;
+}
