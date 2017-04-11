@@ -104,7 +104,7 @@ article.post{
     margin-bottom: 10px;
 }
 
-h3.widget-title {
+#main h3.widget-title {
     background-color:#ddd!important;
 }
 
@@ -124,7 +124,7 @@ h3.widget-title a{
     padding: 0;
 }
 .cat-post-widget ul{
-     margin: -5px 0 30px 0;
+    margin: -5px 0 30px 0;
 }
 .cat-post-widget .widget-title{
     margin-bottom: 15px;
@@ -139,6 +139,7 @@ h3.widget-title a{
     display: inline-block;
     background-color: #169361;
     font-size: 18px;
+    color: white;
 }
 .cat-post-widget .widget-title span a{
     color: #fff;
@@ -150,8 +151,11 @@ h3.widget-title a{
     margin: 0 10px 0 0!important;
 }
 .cat-post-widget .cat-post-item{
-    padding: 0px!important;
+    padding: 0px 0 0 5px!important;
     margin: 14px 0!important;
+}
+.cat-post-item img{
+    margin-left: -5px!important;
 }
 .top-authors-widget li{
     padding:0!important;
@@ -161,11 +165,12 @@ h3.widget-title a{
     width: 60px!important;
     height: 63px;
 }
-.page-header span{
+.do-etfw h1.entry-title, .page-header span{
     font-size: inherit;
     background-color: transparent!important;
-    color: black!important;
-    font-size: 30px;
+    color: #169361!important;
+    font-size: 42px;
+    padding: 6px 0px!important;
 }
 .page-header h1{
     border-bottom: none!important;
@@ -173,3 +178,39 @@ h3.widget-title a{
 .rsspaging .rsspaging_next{
     float: right;
 }
+
+.page-template-page-allposts .post.cat-post-widget li{
+    padding: 5px 15px;
+}
+
+
+/**slider**/
+#focuswp_widget-2 {
+    margin-top: -5px;
+}
+
+div.focuswp-headleft {
+    display: none!important;
+}
+div.focuswp-slider .focuswp-slides .focuswp-head {
+    background-color: #ddd;
+}
+div.focuswp-headright{
+    position: absolute!important;
+    height: 40px!important;
+    top:2px;
+    left:-17px;
+    opacity: 0.7;
+}
+.focuswp-head button {
+    border:1px solid black!important;
+    background-color: #169361 !important;
+    color:white!important;
+}
+.focuswp-slide {
+    display: none!important;
+}
+.focuswp-slide.focusSlides1_on {
+    display: block!important;
+}
+/**************************************/
