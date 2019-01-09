@@ -21,3 +21,8 @@ function rw_colormag_js_scripts(){
 add_action( 'wp_enqueue_scripts', 'rw_colormag_js_scripts', 10 );
 
 // END ENQUEUE PARENT ACTION
+
+function rpi_add_excerpt_support_for_podcast() {
+ 	add_post_type_support( 'podcast', 'excerpt' );
+}
+add_action( 'init', 'rpi_add_excerpt_support_for_podcast' );
