@@ -26,3 +26,9 @@ function rpi_add_excerpt_support_for_podcast() {
  	add_post_type_support( 'podcast', 'excerpt' );
 }
 add_action( 'init', 'rpi_add_excerpt_support_for_podcast' );
+
+function rpi_add_podcast_to_slider ( $args ) {
+	$args[ 'post_type'] = array( 'post', 'podcast');
+	return $args;
+}
+add_filter ( 'focuswp_shortcode_atts', 'rpi_add_podcast_to_slider' );
